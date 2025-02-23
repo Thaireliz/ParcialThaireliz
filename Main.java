@@ -78,7 +78,7 @@ public class Main {
             System.out.println("+---------------------------------------+");
             System.out.print("👉 Selecciona una opción: ");
             int opcion = scanner.nextInt();
-            scanner.nextLine(); // Limpiar buffer
+            scanner.nextLine(); 
 
             if (opcion == 1) {
                 System.out.println("\n=== Agregar Nuevo Producto ===");
